@@ -3,4 +3,21 @@
 {% block extrahead %}
   {{ super() }}
   <meta name="google-site-verification" content="Z_wAKajgpFmJ_8C_BztcWl-0yXC35hNhPx4h1BXA1Xg" />
+
+<style>
+    /* Custom styles directly in <head> */
+    .wy-nav-content {
+        max-width: 100% !important;
+    }
+    .wy-nav-side {
+        display: none !important;
+    }
+    .wy-nav-content-wrap {
+        margin-left: 0 !important;
+    }
+    .rst-content {
+        padding: 2em;
+    }
+    /* Add any additional styles here */
+  </style>
 {% endblock %}
